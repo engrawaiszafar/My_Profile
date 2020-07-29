@@ -1,0 +1,98 @@
+/***********************************Tag Selectors******************************************/
+
+
+hr {
+    height: 2px;
+    color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.4em;
+    width: 10%;
+    cursor: pointer;
+}
+
+.H1CapitalStart::first-letter {
+    color: #ff0000;
+    font-size: 75px;
+}
+
+.H2CapitalStart::first-letter {
+    color: #ff0000;
+    font-size: 40px;
+}
+
+h1 {
+    color: #00a1ab;
+}
+
+h2 {
+    color: #00a1ab;
+}
+
+
+a:hover {
+    color: #00a1ab;
+    font-size: large;
+    transition: color .3s;
+}
+
+h1:hover {
+    color: #ff0000;
+    transition: color .3s;
+}
+
+h2:hover {
+    color: #ff0000;
+    transition: color .3s;
+}
+ img{
+     background-color: white;
+     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 25px;
+ }
+
+ img:hover{
+     border: 1px solid #00a1ab;
+ }
+div {
+width: 100%;
+}
+
+
+/***********************************ID Selectors******************************************/
+
+
+/***********************************Class Selectors******************************************/
+.ProfilePhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.ProfilePhoto:hover{
+
+}
+
+.SocialMediaLogo {
+    width: 35px;
+    height: 35px;
+
+}
+
+.SocialMediaLogo:hover{
+    transform: scaleX(-1)
+}
+
+.CompanyLogo {
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.Circular {
+    border-radius: 100%;
+}
+.body{
+    padding: 10px;
+    margin: 0px;
+    width: 50%;
+}
