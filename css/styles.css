@@ -29,6 +29,10 @@ h2 {
     color: #00a1ab;
 }
 
+p {
+    width: 50%;
+}
+
 
 a:hover {
     color: #00a1ab;
